@@ -1,0 +1,133 @@
+
+Blocked auth attemps (failed sshfilter):
+     23 GeoIP Country Edition: VN, Vietnam
+      6 GeoIP Country Edition: FR, France
+      1 GeoIP Country Edition: SG, Singapore
+      1 GeoIP Country Edition: GB, United Kingdom
+      1 GeoIP Country Edition: EC, Ecuador
+      1 GeoIP Country Edition: CN, China
+      1 GeoIP Country Edition: BR, Brazil
+      1 GeoIP Country Edition: AR, Argentina
+
+Allowed to auth (passed sshfilter), but failed login:
+    628 GeoIP Country Edition: CN, China
+    413 GeoIP Country Edition: VN, Vietnam
+    197 GeoIP Country Edition: AR, Argentina
+    104 GeoIP Country Edition: RU, Russian Federation
+     87 GeoIP Country Edition: US, United States
+     73 GeoIP Country Edition: FR, France
+     39 GeoIP Country Edition: BR, Brazil
+     34 GeoIP Country Edition: IN, India
+     31 GeoIP Country Edition: EC, Ecuador
+     27 GeoIP Country Edition: KR, Korea, Republic of
+     25 GeoIP Country Edition: IR, Iran, Islamic Republic of
+     17 GeoIP Country Edition: GB, United Kingdom
+     16 GeoIP Country Edition: UA, Ukraine
+     14 GeoIP Country Edition: JP, Japan
+     13 GeoIP Country Edition: IT, Italy
+     10 GeoIP Country Edition: DE, Germany
+      9 GeoIP Country Edition: PE, Peru
+      9 GeoIP Country Edition: NL, Netherlands
+      9 GeoIP Country Edition: HK, Hong Kong
+      9 GeoIP Country Edition: ES, Spain
+      9 GeoIP Country Edition: DZ, Algeria
+      9 GeoIP Country Edition: CO, Colombia
+      8 GeoIP Country Edition: TW, Taiwan
+      8 GeoIP Country Edition: TH, Thailand
+      6 GeoIP Country Edition: TR, Turkey
+      5 GeoIP Country Edition: AU, Australia
+      4 GeoIP Country Edition: MY, Malaysia
+      4 GeoIP Country Edition: MX, Mexico
+      4 GeoIP Country Edition: IP Address not found
+      4 GeoIP Country Edition: CA, Canada
+      4 GeoIP Country Edition: BG, Bulgaria
+      3 GeoIP Country Edition: ZA, South Africa
+      3 GeoIP Country Edition: RO, Romania
+      3 GeoIP Country Edition: PL, Poland
+      3 GeoIP Country Edition: PK, Pakistan
+      3 GeoIP Country Edition: PA, Panama
+      3 GeoIP Country Edition: NZ, New Zealand
+      3 GeoIP Country Edition: IE, Ireland
+      3 GeoIP Country Edition: EG, Egypt
+      3 GeoIP Country Edition: CZ, Czech Republic
+      3 GeoIP Country Edition: CH, Switzerland
+      2 GeoIP Country Edition: SE, Sweden
+      2 GeoIP Country Edition: SA, Saudi Arabia
+      2 GeoIP Country Edition: PT, Portugal
+      2 GeoIP Country Edition: NG, Nigeria
+      2 GeoIP Country Edition: MV, Maldives
+      2 GeoIP Country Edition: MA, Morocco
+      2 GeoIP Country Edition: LV, Latvia
+      2 GeoIP Country Edition: KZ, Kazakhstan
+      2 GeoIP Country Edition: ID, Indonesia
+      2 GeoIP Country Edition: BY, Belarus
+      2 GeoIP Country Edition: BD, Bangladesh
+      2 GeoIP Country Edition: AT, Austria
+      1 GeoIP Country Edition: VE, Venezuela
+      1 GeoIP Country Edition: SI, Slovenia
+      1 GeoIP Country Edition: SG, Singapore
+      1 GeoIP Country Edition: SC, Seychelles
+      1 GeoIP Country Edition: RE, Reunion
+      1 GeoIP Country Edition: QA, Qatar
+      1 GeoIP Country Edition: PY, Paraguay
+      1 GeoIP Country Edition: OM, Oman
+      1 GeoIP Country Edition: NO, Norway
+      1 GeoIP Country Edition: MK, Macedonia
+      1 GeoIP Country Edition: MD, Moldova, Republic of
+      1 GeoIP Country Edition: LU, Luxembourg
+      1 GeoIP Country Edition: LK, Sri Lanka
+      1 GeoIP Country Edition: IQ, Iraq
+      1 GeoIP Country Edition: IL, Israel
+      1 GeoIP Country Edition: GR, Greece
+      1 GeoIP Country Edition: EU, Europe
+      1 GeoIP Country Edition: DK, Denmark
+      1 GeoIP Country Edition: CL, Chile
+      1 GeoIP Country Edition: AM, Armenia
+      1 GeoIP Country Edition: AE, United Arab Emirates
+
+Permitted auth attempts (passed sshfilter):
+      3 GeoIP Country Edition: US, United States
+      2 GeoIP Country Edition: IP Address not found
+
+Accepted logins:
+      3 GeoIP Country Edition: IP Address not found
+      2 GeoIP Country Edition: US, United States
+
+/var/log/auth.log:Mar 26 11:16:18 <serverName> sshd[5815]: Accepted password for <userid> from <ip/host> port 59351 ssh2
+/var/log/auth.log:Mar 26 11:54:05 <serverName> sshd[22792]: Accepted password for <userid> from <ip/host> port 54296 ssh2
+/var/log/auth.log:Mar 26 12:10:11 <serverName> sshd[9224]: Accepted password for <userid> from <ip/host> port 45878 ssh2
+/var/log/auth.log:Mar 26 12:11:15 <serverName> sshd[9996]: Accepted password for <userid> from <ip/host> port 60711 ssh2
+/var/log/auth.log:Mar 26 12:17:19 <serverName> sshd[16909]: Accepted password for <userid> from <ip/host> port 46047 ssh2
+/var/log/auth.log:Mar 26 12:17:45 <serverName> sshd[17854]: Accepted publickey for <userid> from <ip/host> port 46048 ssh2: RSA <key>
+/var/log/auth.log:Mar 26 12:19:36 <serverName> sshd[22349]: Accepted publickey for <userid> from <ip/host> port 46051 ssh2: RSA <key>
+/var/log/auth.log:Mar 26 12:36:33 <serverName> sshd[8047]: Accepted password for <userid> from <ip/host> port 61067 ssh2
+/var/log/auth.log:Mar 26 13:13:59 <serverName> sshd[18829]: Accepted publickey for <userid> from <ip/host> port 46140 ssh2: RSA <key>
+/var/log/auth.log:Mar 26 13:14:25 <serverName> sshd[19681]: Accepted password for <userid> from <ip/host> port 61621 ssh2
+/var/log/auth.log:Mar 26 13:14:34 <serverName> sshd[20094]: Accepted password for <userid> from <ip/host> port 61623 ssh2
+/var/log/auth.log.1:Mar 22 01:05:25 <serverName> sshd[3774]: Accepted password for <userid> from <ip/host> port 46690 ssh2
+/var/log/auth.log.1:Mar 22 09:47:47 <serverName> sshd[17394]: Accepted password for <userid> from <ip/host> port 61515 ssh2
+/var/log/auth.log.1:Mar 22 09:54:13 <serverName> sshd[20426]: Accepted password for <userid> from <ip/host> port 61706 ssh2
+/var/log/auth.log.1:Mar 22 16:40:41 <serverName> sshd[27149]: Accepted password for <userid> from <ip/host> port 39019 ssh2
+/var/log/auth.log.2.gz:Mar 14 10:09:46 <serverName> sshd[4501]: Accepted password for <userid> from <ip/host> port 52386 ssh2
+/var/log/auth.log.2.gz:Mar 14 14:35:27 <serverName> sshd[26045]: Accepted password for <userid> from <ip/host> port 57065 ssh2
+/var/log/auth.log.2.gz:Mar 16 15:04:19 <serverName> sshd[20763]: Accepted password for <userid> from <ip/host> port 59887 ssh2
+/var/log/auth.log.2.gz:Mar 16 16:07:58 <serverName> sshd[14033]: Accepted password for <userid> from <ip/host> port 54744 ssh2
+/var/log/auth.log.2.gz:Mar 17 09:46:33 <serverName> sshd[31539]: Accepted password for <userid> from <ip/host> port 64901 ssh2
+/var/log/auth.log.2.gz:Mar 17 10:22:33 <serverName> sshd[13637]: Accepted password for <userid> from <ip/host> port 50542 ssh2
+/var/log/auth.log.2.gz:Mar 17 14:32:55 <serverName> sshd[12962]: Accepted password for <userid> from <ip/host> port 57195 ssh2
+/var/log/auth.log.2.gz:Mar 18 08:59:36 <serverName> sshd[29551]: Accepted password for <userid> from <ip/host> port 54425 ssh2
+/var/log/auth.log.3.gz:Mar  5 11:58:22 <serverName> sshd[29913]: Accepted password for <userid> from <ip/host> port 51469 ssh2
+/var/log/auth.log.3.gz:Mar  6 16:45:07 <serverName> sshd[8405]: Accepted password for <userid> from <ip/host> port 65523 ssh2
+/var/log/auth.log.3.gz:Mar 12 10:13:18 <serverName> sshd[8046]: Accepted password for <userid> from <ip/host> port 56149 ssh2
+/var/log/auth.log.3.gz:Mar 12 10:16:28 <serverName> sshd[8911]: Accepted password for <userid> from <ip/host> port 56381 ssh2
+/var/log/auth.log.4.gz:Feb 27 09:54:03 <serverName> sshd[18585]: Accepted password for <userid> from <ip/host> port 53008 ssh2
+/var/log/auth.log.4.gz:Feb 27 15:14:32 <serverName> sshd[12199]: Accepted password for <userid> from <ip/host> port 61314 ssh2
+/var/log/auth.log.4.gz:Feb 27 18:50:50 <serverName> sshd[30551]: Accepted password for <userid> from <ip/host> port 61276 ssh2
+/var/log/auth.log.4.gz:Feb 27 19:05:17 <serverName> sshd[32236]: Accepted password for <userid> from <ip/host> port 61693 ssh2
+/var/log/auth.log.4.gz:Feb 27 19:13:18 <serverName> sshd[910]: Accepted password for <userid> from <ip/host> port 61889 ssh2
+/var/log/auth.log.4.gz:Feb 28 11:00:52 <serverName> sshd[24827]: Accepted password for <userid> from <ip/host> port 55612 ssh2
+/var/log/auth.log.4.gz:Mar  1 11:02:14 <serverName> sshd[3562]: Accepted password for <userid> from <ip/host> port 62098 ssh2
+/var/log/auth.log.4.gz:Mar  1 22:19:48 <serverName> sshd[19532]: Accepted password for <userid> from <ip/host> port 63458 ssh2
+/var/log/auth.log.4.gz:Mar  2 09:08:54 <serverName> sshd[28731]: Accepted password for <userid> from <ip/host> port 50458 ssh2
+/var/log/auth.log.4.gz:Mar  3 12:19:30 <serverName> sshd[25262]: Accepted password for <userid> from <ip/host> port 51937 ssh2
+/var/log/auth.log.4.gz:Mar  4 15:30:51 <serverName> sshd[27773]: Accepted password for <userid> from <ip/host> port 58123 ssh2
