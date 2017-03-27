@@ -1,4 +1,4 @@
-# ssh-login-report
+# ssh-login-geoip-report
 
 This was created with the intent of showing a GeoIP ssh-login report. Includes the following sections:
 - Blocked auth attemps (failed sshfilter)
