@@ -7,9 +7,10 @@ This was created with the intent of showing a GeoIP ssh-login report. Includes t
 - Accepted logins
 
 Inspired by the following example of how to limit ssh logins using GeoIP:
-https://www.axllent.org/docs/view/ssh-geoip/
+<br>https://www.axllent.org/docs/view/ssh-geoip/
 
-Here is a small sample of what the script may output. For a more detailed example report, please refer to [example-ssh-login-report.log](example-ssh-login-report.log).
+Here is a small sample of what the script may output. For a more detailed example report, please refer to:
+<br>[example-ssh-login-report.log](example-ssh-login-report.log)
 ```
 Blocked auth attemps (failed sshfilter):
     625 GeoIP Country Edition: CN, China
